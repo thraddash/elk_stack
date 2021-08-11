@@ -4,8 +4,10 @@ Notes
 
 git clone https://github.com/deviantony/docker-elk.git
 
-cd docker-elk
-add json filter  vi logstash/pipeline/logstash.conf
+execute run.sh to create logstash.conf file  
+
+cd docker-elk  
+copy logstash.conf to logstash/pipeline/logstash.conf  
  
 #Add your filters...
 filter{
