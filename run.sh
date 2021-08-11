@@ -2,6 +2,6 @@
 
 # Heredoc
 #cat > logstash.conf <<EOF
-cat <<EOF > logstash.cof
+cat <<EOF > logstash.conf
 filter{ json { source => "message" } }
 EOF
